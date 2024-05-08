@@ -1,0 +1,2 @@
+# Overview
+Script that is developed in Python that takes in user input of who the person picked today (either 'Me' or another person) and the game being played, and adds that to a log along with the current date. If 'Me' is the person who picked, it adds to the log file, but if the other person, in this case, Nick, it clears the log file and writes that log only. Once the log file has been created, the script gets how many times 'Me' has picked in a row and returns it back to the user.
