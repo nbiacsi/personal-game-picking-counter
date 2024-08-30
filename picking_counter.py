@@ -5,7 +5,6 @@
 """
 
 # TODO: Convert this script to a .exe self.application so that it can be run straight from the desktop instead of having to open VSCode to run this self.app.
-# TODO: Push to GH.
 
 from csv import reader
 import customtkinter as ctk
