@@ -84,8 +84,9 @@ class GUI:
         self._write_log()
         self._set_count()
 
-        # Remove button after data is entered so no more data can be entered.
+        # Remove button and ability to press the 'Enter' button functionality to press the button after data is entered so no more data can be entered.
         self.app.after(0, self.create_log_button.destroy)
+        self.app.after(0, self.app.unbind("<Return>"))
 
         # Sets a timeout for 5 seconds and then closes the self.app after.
         self.app.after(3000, self.app.destroy)
