@@ -4,7 +4,7 @@
     Description: Python script to log who picks in a given day of playing games. It returns the number of times the user picked in a row.
 """
 
-# TODO: Convert this script to a .exe self.application so that it can be run straight from the desktop instead of having to open VSCode to run this self.app.
+# TODO: Convert this script to a .exe application so that it can be run straight from the desktop instead of having to open VSCode to run this app.
 
 from csv import reader
 import customtkinter as ctk
@@ -88,7 +88,7 @@ class GUI:
         self.app.after(0, self.create_log_button.destroy)
         self.app.after(0, self.app.unbind("<Return>"))
 
-        # Sets a timeout for 5 seconds and then closes the self.app after.
+        # Sets a timeout for 5 seconds and then closes the app after.
         self.app.after(3000, self.app.destroy)
 
     def _set_count(self) -> None:
