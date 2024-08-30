@@ -84,6 +84,7 @@ class GUI:
         self._write_log()
         self._set_count()
 
+        # Remove button after data is entered so no more data can be entered.
         self.app.after(0, self.create_log_button.destroy)
 
         # Sets a timeout for 5 seconds and then closes the self.app after.
