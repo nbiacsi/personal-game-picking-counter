@@ -151,7 +151,7 @@ class GUI:
 
 
 def main() -> None:
-    file_path: str = r"D:\Misc\Scripts\Picking Counter\Log.csv"
+    file_path: str = "/home/sloth/Documents/Scripts/Picking_Counter/personal-game-picking-counter/Log.csv"
     GUI(file_path)
 
 
